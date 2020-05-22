@@ -15,4 +15,7 @@ server.use(express.json());
 server.use('/api/auth', authRouter);
 server.use('/api/jokes', authenticate, jokesRouter);
 
+server.get("/", (req, res) => {
+    res.send(`<h2>Node Sprint 3</h2>`)
+})
 module.exports = server;

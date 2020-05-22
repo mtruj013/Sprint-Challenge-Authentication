@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
   const token = req.headers.authorization
 
   if(token){
-    const secret = process.env.JWT_SECRET || "isasecret";
+    const secret = process.env.JWT_SECRET || "issasecret";
 
     jwt.verify(token, secret, (error, decodedToken) => {
       if(error){
