@@ -6,6 +6,7 @@ In this challenge, you build a real wise-guy application. _Dad jokes_ are all th
 
 ## Instructions
 
+
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This is an individual assessment, please work on it alone. It is an opportunity to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
@@ -40,11 +41,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+    To have the server remember clients
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+    Encrypt(hash?) the password
 
 - [ ] What does bcrypt do to slow down attackers?
 
+    It hashes the password 2 to the nth times
+
 - [ ] What are the three parts of the JSON Web Token?
+
+    header, payload, signature 
 
 ## Minimum Viable Product
 
